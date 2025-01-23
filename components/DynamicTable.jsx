@@ -138,7 +138,7 @@ export function DynamicTable() {
   return (
     <div className="space-y-4">
       <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-        {/* <DropdownMenu>
+        <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button
               variant="outline"
@@ -151,7 +151,7 @@ export function DynamicTable() {
             <DropdownMenuItem onClick={() => handleExport("csv")}>Export as CSV</DropdownMenuItem>
             <DropdownMenuItem onClick={() => handleExport("pdf")}>Export as PDF</DropdownMenuItem>
           </DropdownMenuContent>
-        </DropdownMenu> */}
+        </DropdownMenu>
       </div>
 
       <div className="rounded-md border overflow-x-auto dark:border-gray-700">
